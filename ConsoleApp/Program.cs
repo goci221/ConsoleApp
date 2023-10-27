@@ -83,7 +83,7 @@ class Program
         string input = Console.ReadLine();
         string[] splited = input.Split(' ');
 
-        // Превратим введенную строку в список IComparable (типы которые мы можем савнивать)
+        // Превратим введенную строку в список IComparable (типы которые мы можем сравнивать)
         LinkedList<IComparable> list = new LinkedList<IComparable>(splited.Select(item =>
         {
             int value;
